@@ -6,8 +6,8 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 const ScrollBar = () => {
   return (
-    <Container fluid>
-      <Row className='justify-content-center align-items-center'>
+    <Container fluid id='home'>
+      <Row className='justify-content-center align-items-center scroll'>
         <Col lg={8}>
           <Carousel>
             <Carousel.Item interval={2000}>

@@ -5,7 +5,7 @@ import Cart from './Cart'
 
 const Header = () => {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
+    <Navbar expand="lg" className="bg-body-tertiary header">
       <Container>
         <Navbar.Brand href="#home"><h2 style={{color:"orangered"}}><i className="bi bi-yelp"></i>Pizza Shop</h2></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

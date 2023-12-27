@@ -1,5 +1,17 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
+.header{
+  width: 100%;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+}
+
+.scroll{
+  padding-top: 100px;
+}
+
 .buy{
   width: 125px;
   height: 40px;
